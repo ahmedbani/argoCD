@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/ahmedbani/argoCD.git
     targetRevision: HEAD
-    path: dev
+    path: overlays/staging
   destination:
     server: https://kubernetes.default.svc
-    namespace: guestbook
+    namespace: guestbook-staging
   syncPolicy:
     syncOptions: 
     - CreateNamespace=true
