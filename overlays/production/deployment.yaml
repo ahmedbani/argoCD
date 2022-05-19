@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rss-site-prod
+  name: rss-site
 spec:
   replicas: 5
